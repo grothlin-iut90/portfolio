@@ -230,41 +230,41 @@
                         >
                         <input type="hidden" name="form-name" value="contact" />
                         <div class="form-group">
-                            <label for="name">{{ t('ContactSection.label_user') }}</label>
+                            <label for="name">{{$t('ContactSection.label_user') }}</label>
                             <input
                                     type="text"
                                     id="name"
                                     name="name"
                                     v-model="formData.name"
                                     required
-                                    :placeholder="t('ContactSection.placeholder_user')"
+                                    :placeholder="$t('ContactSection.placeholder_user')"
                                     />
                         </div>
                         <div class="form-group">
-                            <label for="email">{{ t('ContactSection.label_email') }}</label>
+                            <label for="email">{{$t('ContactSection.label_email') }}</label>
                             <input
                                     type="email"
                                     id="email"
                                     name="email"
                                     v-model="formData.email"
                                     required
-                                    :placeholder="t('ContactSection.placeholder_email')"
+                                    :placeholder="$t('ContactSection.placeholder_email')"
                                     />
                         </div>
                         <div class="form-group">
-                            <label for="message">{{ t('ContactSection.label_message') }}</label>
+                            <label for="message">{{$t('ContactSection.label_message') }}</label>
                             <textarea
                                     id="message"
                                     name="message"
                                     rows="5"
                                     v-model="formData.message"
                                     required
-                                    :placeholder="t('ContactSection.placeholder_message')"
+                                    :placeholder="$t('ContactSection.placeholder_message')"
                                     ></textarea>
                         </div>
                         <button type="submit" class="submit-btn" :disabled="isLoading">
                             {{
-                            isLoading ? t("ContactSection.btn_sending") : t("ContactSection.btn_send")
+                            isLoading ?$t("ContactSection.btn_sending") : t("ContactSection.btn_send")
                             }}
                         </button>
                         <p v-if="status" :class="['status-msg', status.type]">
