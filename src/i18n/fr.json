@@ -187,7 +187,7 @@
         "btn_sending":"[ En Cours d'envoi ]",
         "btn_send":"[ Envoyer ]",
         "success":"Email Bien Envoyé, merci",
-        "error":"Oh oh, une erreur est survenue, réessayez ultérieurement...",
+        "error":"Oh oh, une erreur est survenue, réessayez ultérieurement..."
     },
 
     "B.I.E.N._description": "SAE-SiteInfo-BIEN est un site éducatif et interactif conçu pour sensibiliser le public à l'impact environnemental du numérique, et en particulier à la production de CO2 liée à la technologie. L'objectif principal est d'aider les utilisateurs à prendre conscience de l'empreinte carbone du secteur technologique grâce à des données visuelles et personnalisables.",
