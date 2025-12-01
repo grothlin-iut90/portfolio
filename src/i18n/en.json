@@ -188,7 +188,10 @@
       "label_message":"Body of the message",
       "placeholder_message":"What you want to tell/ask me",
       "btn_sending":"[ Sending ]",
-      "btn_send":"[ Send ]"
+      "btn_send":"[ Send ]",
+      "success":"Email Successfully Sent",
+      "error":"There might have been some problem, try again...",
+      
   },
 
   "B.I.E.N._description": "B.I.E.N. is an educational and interactive website designed to raise public awareness of the environmental impact of digital technology, and in particular the CO2 produced by technology. The main aim is to help users become more aware of the carbon footprint of the technology sector through visual and customisable data.",
