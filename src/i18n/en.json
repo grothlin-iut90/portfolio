@@ -186,7 +186,7 @@
       "label_email":"Email Address",
       "placeholder_email":"Your Email",
       "label_message":"Body of the message",
-      "placehoder_message":"What you want to tell/ask me",
+      "placeholder_message":"What you want to tell/ask me",
       "btn_sending":"[ Sending ]",
       "btn_send":"[ Send ]"
   },

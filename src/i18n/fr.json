@@ -183,7 +183,7 @@
         "label_email":"Adresse Email",
         "placeholder_email":"Votre Email",
         "label_message":"Corps du message",
-        "placehoder_message":"Ce que vous voulez me dire",
+        "placeholder_message":"Ce que vous voulez me dire",
         "btn_sending":"[ En Cours d'envoi ]",
         "btn_send":"[ Envoyer ]"
     },

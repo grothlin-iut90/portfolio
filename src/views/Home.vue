@@ -320,6 +320,14 @@
             scrollToProjects() {
                 this.$refs.projectsSection.scrollIntoView({ behavior: "smooth" });
             },
+            encode(data) {
+                return Object.keys(data)
+                    .map(
+                        (key) =>
+                        encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+                    )
+                    .join("&");
+            },
             toggleFormVisibility() {
                 this.showForm = !this.showForm;
             },
